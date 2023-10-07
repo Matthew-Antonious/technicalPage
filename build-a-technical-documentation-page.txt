@@ -1,0 +1,298 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Groom Your Dog</title>
+  <link rel='stylesheet' href='styles.css'>
+
+  </head>
+  <body>
+    <nav id='navbar'>
+      <header>Grooming Process</header>
+      <ul>
+        <li>
+          <a class='nav-link' href='#Introduction'>Introduction</a>
+        </li>
+        <li>
+          <a class='nav-link' href='#Proper_Equipment'>Proper Equipment</a>
+        </li>
+        <li>
+          <a class='nav-link' href='#Prepare_For_Bathing'>Prepare For Bathing</a>
+        </li>
+        <li>
+          <a class='nav-link' href='#Scrub_a_Dub_Dub'>Scrub a Dub Dub</a>
+        </li>
+        <li>
+          <a class='nav-link' href='#Drying'>Drying</a>
+        </li>
+        <li>
+          <a class='nav-link' href='#Finishing'>Finishing</a>
+        </li>
+      </ul>
+    </nav>
+    <main id='main-doc'>
+      <section class='main-section' id='Introduction'>
+        <header>Introduction</header>
+        <article>
+          <p>
+            "Over the millenia dog's have truly been one of humanities best friends. While they have had many roles throughout our evolution together, the role they play these days is more often than not companion and beloved part of the family. </p>
+        <p>" As a result most dogs are spending more time in our homes and even in our beds. While there are many benefits to regularly bathing, this reason alone is sufficient for many people. "
+          </p>
+        </article>
+        </section>
+        <section class='main-section' id='Proper_Equipment'>
+        <header>Proper Equipment</header>
+        <article>
+          <p>
+            " In order to give your dog a thurough cleaning and proper haircut or brushing if necessary it is important to have the right equipment. "
+          </p>
+          <code>
+            <ul>
+            <li>Shampoo / Conditioner</li>
+            <li>Towels / Blow Dryer</li>
+            <li>Nail Trimmer / Dremmel</li>
+            <li>Brushes</li>
+            <li>Clippers</li>
+          </ul>
+          </code>
+        </article>
+        </section>
+        <section class='main-section' id='Prepare_For_Bathing'>
+        <header>Prepare For Bathing</header>
+        <article>
+          <p>
+            " If your pet has long hair getting any tangles or knots out before the bath will help the washing and drying process go smoother. "
+          </p>
+          <p>" If they are getting a considerable amout of fur shaved off there is also no need to wash and dry all the extra fur if the coat is in good condition. "</p>
+          <p>" Even if your pet doesn't need a haircut brushing their coat before bathing can help loosen it up so more of the old fur can be removed during the washing and drying process. "</p>  
+          <code>
+          <ul>
+            <li>Check their teeth</li>
+            <li>Check their ears</li>
+            <li>Make sure they are securely positioned in the tub</li>
+          </ul>
+          </code>
+
+        </article>
+        </section>
+        <section class='main-section' id='Scrub_a_Dub_Dub'>
+        <header>Scrub a Dub Dub</header>
+        <article>
+          <p>
+            " Once your pet has been prepped it is time for the bath. Before applying shampoo and conditioner make sure that their coat is wet all the way through. This will help ensure that the cleaning products are not over used and are able to do their best for your pets coat. "
+          </p>
+          <p>
+            " Here are a few tips to assist bath time "
+          </p>
+          <code>
+          <ul>
+            <li>clean their ears</li>
+            <li>Use an appropriate Shampoo / Conditioner</li>
+            <li> Let them sit on the coat as long as necessary</li>
+            <li>Use a Rubber Scrub Brush (e.g.Zoom Groom)</li>
+            <li>Rinse All Products Thoroughly</li>
+            </ul>
+          </code>
+        </article>
+        </section>
+        <section class='main-section' id='Drying'>
+        <header>Drying</header>
+        <article>
+          <p>
+            " Once your pet has been cleaned it is time to dry! At this point most pups will help you out with a good shake so take cover. After a good shake use a towel or two to get the majority of the water off.  "
+          </p>
+          <p>" If your furry friend doesn't require any additional work you can let them air dry at this point. However in my professional experience that is rarely recommended. Most dog washes provide high powered dryers that make the drying process much faster and also help remove more loose fur. "
+          </p>
+          <h4>Drying Tips</h4>
+          <code>
+          <ul>
+            <li>Use the Towel and Blow Dryer Together</li>
+            <li>Don't point the dryer in their face or ears.</li>
+            <li>If the dog doesn't like the dryer try covering their head with a towel so it's not as loud.</li>
+            <li>Covering their head can also help if they try to bite the dryer</li>
+          </code>
+        </article>
+        </section>
+        <section class='main-section' id='Finishing'>
+        <header>Finishing</header>
+        <article>
+          <p>
+               Congratulations you have a clean dry furry friend!
+          </p> 
+          <p> Now its time to brush out any access fur if they are shedding. Clip their hair if they need a haircut. Trim their nails if they are getting long. 
+          </p>
+          <code>
+          <ul>
+            <li>Give them a treat</li>
+            <li>Take them for a walk</li>
+          </ul>
+          </code> 
+        </article>
+        </section>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html, body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'open sans', arial, sans-serif;
+  line-height: 1.5;
+}
+
+html {
+  display: block;
+  view-transition-name: root;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px; 
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+nav {
+  display: block;
+}
+
+@media only screen and (max-width: 815px) {
+#navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+    
+}
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+header {
+  display: block;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+@media only screen and (max-width: 815px) { 
+#navbar ul {
+    border: 1px solid;
+    height: 207px;
+}
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+@media only screen and (max-width: 815px) {
+#main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+}
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+section article {
+    color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+
+** end of undefined **
+
